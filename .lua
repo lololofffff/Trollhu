@@ -86,7 +86,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   localPlayer.Character.enabled.Auto
+   
    end,
 })
 
@@ -95,7 +95,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   localPlayer.Character.enabled.Autoclick
+   
    end,
 })
 
@@ -104,7 +104,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   Local.Player.Money.Set = Value
+   
    end,
 })
 
@@ -116,7 +116,7 @@ local Slider = Tab:CreateSlider({
    CurrentValue = 10,
    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   Local.Player.Money.Set = Value
+   
    end,
 })
 
@@ -125,7 +125,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   Local.Player.Brainrots.Set = Value
+   
    end,
 })
 
@@ -137,7 +137,7 @@ local Slider = Tab:CreateSlider({
    CurrentValue = 10,
    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   Local.Player.Brainspeed.Set = Value
+   
    end,
 })
 
@@ -148,7 +148,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   localplayer.esp = enabled
+   
    end,
 })
 
@@ -157,7 +157,7 @@ local Toggle = Tab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-   localBrain.Esp = enabled
+   
    end,
 })
 
