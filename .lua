@@ -167,3 +167,41 @@ local Slider = Tab:CreateSlider({
    
    end,
 })
+
+local Tab = Window:CreateTab("Anti", 4483362458) -- Title, Image
+
+local Toggle = Tab:CreateToggle({
+   Name = "Anti-ban",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   
+   end,
+})
+
+local Toggle = Tab:CreateToggle({
+   Name = "Anti-kick",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   
+   end,
+})
+
+local Toggle = Tab:CreateToggle({
+   Name = "Anti-Fling",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   
+   end,
+})
+
+local Toggle = Tab:CreateToggle({
+   Name = "Anti-Lag",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   
+   end,
+})
